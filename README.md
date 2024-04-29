@@ -54,10 +54,10 @@ de saída para uma pasta chamada javascript. Após a execução, o arquivo tscon
 
 
     **Como fazer funcionar no PowerShell e Command prompt**
-  **Passo 1 **
+    > **Passo 1**
   Cria uma pasta em local a sua escolha e coloque os arquivos dentro da mesma.
 
-  **Passo 2 **
+    >**Passo 2 **
   Para que os comando sejam reconhecidos no prompt de comando do Windows 11 deve-se acrescentar
   o caminha ao path. 
     > Anote o caminha da pasta onde gravou os arquivos.bat.
