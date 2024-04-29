@@ -50,3 +50,54 @@ Esse arquivo define as opções de compilação para o TypeScript.
 
 Essencialmente, o script modifica o arquivo tsconfig.json para mudar a versão do alvo do TypeScript para ES2020 e o diretório
 de saída para uma pasta chamada javascript. Após a execução, o arquivo tsconfig.json original é atualizado com essas alterações.
+
+
+
+    **Como fazer funcionar no PowerShell e Command prompt**
+  **Passo 1 **
+  Cria uma pasta em local a sua escolha e coloque os arquivos dentro da mesma.
+
+  **Passo 2 **
+  Para que os comando sejam reconhecidos no prompt de comando do Windows 11 deve-se acrescentar
+  o caminha ao path. 
+    > Anote o caminha da pasta onde gravou os arquivos.bat.
+    > No prompt de comando: Utilize o comando: ```setx PATH %PATH%;C:\Caminho\Para\Pasta\"```.
+    > No PowerShell: Utilize o comando ```$env:PATH```, confira se o caminho para pasta que
+      criou foi adicionada com sucesso.
+      
+    **Como fazer funcionar no Git Bash**
+
+  **Passo 1**
+  > Abra o Git Bash.
+    Execute o seguinte comando para editar o arquivo .bashrc:
+
+> ```nano ~/.bashrc```
+
+  > Apartir desse momento você estará dentro de um editor de texto nano.   
+
+  **Passo 2**
+  > Dentro do arquivo .bashrc, adicione uma linha que exporta o caminho do diretório do seu script .bat para a variável PATH. Por exemplo:
+
+> ```export PATH="$PATH:/caminho/para/seu/script"```
+
+Certifique-se de substituir /caminho/para/seu/script pelo caminho real onde seu script .bat está localizado.
+  > Pressione Ctrl + O, depois pressione Enter para salvar as alterações, e depois Ctrl + X        para sair do editor nano.
+
+  **Passo 3**
+  > Recarregue o arquivo .bashrc para aplicar as alterações. Você pode fazer isso executando o comando:
+
+>```source ~/.bashrc```
+
+  > Agora, o Git Bash deve reconhecer seu script .bat quando você o chamar pelo nome no terminal. Certifique-se de que seu script .bat tenha permissões de execução adequadas para ser executado no Git Bash.
+
+> Observações:
+  Por algum motivo no Windows 11 você ainda terá que digita o <nome do seu script.bat> ou seja   ainda terá que digitar a sua extensão.
+
+  Outra forma de executar o seu script sem necessecidade de digitar a extensão é abrir um prompt de comando dentro do Git Bash digitando o comando:
+  
+  ```cmd``` 
+
+  Para abrir o prompt de comando e após o término da criação do seu projeto em Type Script 
+  usar o camando:
+
+  ```exit```
