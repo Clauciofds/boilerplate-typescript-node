@@ -53,7 +53,7 @@ de saída para uma pasta chamada javascript. Após a execução, o arquivo tscon
 
 
 
-  **--    Como fazer funcionar no PowerShell e Command prompt    --**
+  **--Como fazer funcionar no PowerShell e Command prompt--**
   
   **Passo 1**
   
