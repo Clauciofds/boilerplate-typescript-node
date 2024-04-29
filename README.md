@@ -99,7 +99,7 @@ Certifique-se de substituir /caminho/para/seu/script pelo caminho real onde seu 
 
 ***Observações:***
   
-  Por algum motivo no Windows 11 você ainda terá que digita o ```nome do seu script.bat``` ou seja   ainda terá que digitar a sua extensão.
+  Por algum motivo no Windows 11 você ainda terá que digita o ```ippD.bat``` ou seja   ainda terá que digitar a extensão.
 
   Outra forma de executar o seu script sem necessecidade de digitar a extensão é abrir um prompt de comando dentro do Git Bash digitando o comando:
   
