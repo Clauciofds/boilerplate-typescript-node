@@ -47,27 +47,27 @@ Esse arquivo define as opções de compilação para o TypeScript.
     - Na linha 12, altera a opção ```"target": "es2016"```(1) para ```"target": "ES2020"```.
     - Na linha 53, altera a opção ```"outDir": "./"``` para ```"outDir": "./javascript"```.
     
-  <small>**Observação: (1)**
+  <span style="font-size: 12px;">**Observação: (1)**
 
-  Aqui estão algumas informações relevantes sobre o “target”:
+  <span style="font-size: 12px;">Aqui estão algumas informações relevantes sobre o “target”:
 
-Valores Possíveis:
+<span style="font-size: 12px;">Valores Possíveis:
 O “target” pode ser configurado com os seguintes valores:
 
-“ES3”: Gera código JavaScript compatível com ECMAScript 3 (ES3).  
+<span style="font-size: 12px;">“ES3”: Gera código JavaScript compatível com ECMAScript 3 (ES3).  
 “ES5”: Gera código JavaScript compatível com ECMAScript 5 (ES5).  
 “ES6” ou “ES2015”: Gera código JavaScript compatível com ECMAScript 2015 (ES6).  
 “ES2016”: Gera código JavaScript compatível com ECMAScript 2016 (ES7).  
 “ES2017”: Gera código JavaScript compatível com ECMAScript 2017 (ES8).  
 “ESNext”: Gera código JavaScript compatível com a versão mais recente do ECMAScript (ESNext).
 
-Benefícios de Usar Versões Posteriores ao ES2015:  
+<span style="font-size: 12px;">Benefícios de Usar Versões Posteriores ao ES2015:  
 Ao usar uma versão mais recente do ECMAScript (como ES2016), você pode se beneficiar de:  
- - Bundles Menores: O código gerado pode ser mais compacto, especialmente se você estiver usando recursos específicos das versões mais recentes.
- - Recursos Nativos: Menos necessidade de polyfills, pois navegadores modernos oferecem suporte a mais recursos nativamente.
- - Melhor Desempenho: Alguns recursos mais recentes podem ser otimizados para desempenho.  
+ <span style="font-size: 12px;">- Bundles Menores: O código gerado pode ser mais compacto, especialmente se você estiver usando recursos específicos das versões mais recentes.
+ <span style="font-size: 12px;">- Recursos Nativos: Menos necessidade de polyfills, pois navegadores modernos oferecem suporte a mais recursos nativamente.
+ <span style="font-size: 12px;">- Melhor Desempenho: Alguns recursos mais recentes podem ser otimizados para desempenho.  
 
-º No entanto, tenha em mente que, se você segmentar versões mais recentes, os navegadores mais antigos podem encontrar erros de tempo de execução se usarem recursos não suportados por sua versão específica.</small>
+<span style="font-size: 12px;">º _No entanto, tenha em mente que, se você segmentar versões mais recentes, os navegadores mais antigos podem encontrar erros de tempo de execução se usarem recursos não suportados por sua versão específica._</span>
 
   *7*. Redireciona a saída modificada para um arquivo temporário.
 
