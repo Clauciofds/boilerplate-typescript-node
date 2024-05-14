@@ -1,5 +1,9 @@
+  # Script para criação de novos projetos Type Script
+  
   Esse código em lote (arquivo .bat) é usado para automatizar a criação de um novo projeto TypeScript no Visual Studio Code (VS Code).
 Vou explicar cada parte:
+
+## Arquivo ippD.bat
 
   -> ```@echo off:```
 **Desativa a exibição dos comandos no terminal**. Isso significa que os comandos subsequentes não serão mostrados na tela durante a execução.
@@ -23,6 +27,7 @@ O TypeScript é uma linguagem superset do JavaScript, e o ts-node permite execut
 Inicializa um arquivo de configuração TypeScript (tsconfig.json) no projeto.
 Esse arquivo define as opções de compilação para o TypeScript.
 
+## Arquivo codj.bat
   --> ```codj```:
   -> O script codj.bat é um lote do Windows que realiza a seguinte sequência de operações:
 
@@ -75,63 +80,65 @@ de saída para uma pasta chamada javascript. Após a execução, o arquivo tscon
 
 
 
-  **--Como fazer funcionar no PowerShell e Command prompt--**
+  ### Como fazer funcionar no PowerShell e Command prompt
   
-  **Passo 1**
+  **Passo 1**  
+  Cria uma pasta em local a sua escolha e coloque os arquivos ```ippD.bat e o codj.bat``` dentro da mesma.  
   
-  Cria uma pasta em local a sua escolha e coloque os arquivos ```ippD.bat e o codj.bat``` dentro da mesma.
+  **Passo 2**  
+  Para que os comando sejam reconhecidos no prompt de comando do Windows 11 deve-se acrescentar o caminha ao path.  
+    º Anote o caminha da pasta onde gravou os arquivos.bat.  
   
-  **Passo 2 **
-  
-  Para que os comando sejam reconhecidos no prompt de comando do Windows 11 deve-se acrescentar
-  o caminha ao path. 
-    > Anote o caminha da pasta onde gravou os arquivos.bat.
-    > No prompt de comando: Utilize o comando:
+  No PowerShell: Utilize o comando:
     
-      setx PATH %PATH%;C:\Caminho\Para\Pasta onde salvou os arquivos\"
-    
-  > No PowerShell: Utilize o comando
+    setx PATH %PATH%;C:\Caminho\Para\Pasta onde salvou os arquivos\"
 
-      $env:PATH
+.
+
+    $env:PATH
   
   Confira se o caminho para pasta que criou foi adicionada com sucesso.
       
-  **Como fazer funcionar no Git Bash**
+  ### Como fazer funcionar no Git Bash
 
-  **Passo 1**
-  > Abra o Git Bash.
-    Execute o seguinte comando para editar o arquivo .bashrc:
+  **Passo 1**  
+  _Abra o Git Bash._
 
-      nano ~/.bashrc
+  Execute o seguinte comando para editar o arquivo .bashrc:
 
-  > Apartir desse momento você estará dentro do editor de texto nano.   
+    nano ~/.bashrc
 
-  **Passo 2**
-  > Dentro do arquivo .bashrc, adicione uma linha que exporta o caminho do diretório do seu script .bat para a variável PATH. Por exemplo:
+  **Observação:**  
+  _Apartir desse momento você estará dentro do editor de texto nano._   
 
-     export PATH="$PATH:/caminho/para/seu/script"
+  **Passo 2**  
+  Dentro do arquivo .bashrc, adicione uma linha que exporta o caminho do diretório do seu script .bat para a variável PATH. Por exemplo:
+
+    export PATH="$PATH:/caminho/para/seu/script"
 
 Certifique-se de substituir /caminho/para/seu/script pelo caminho real onde seu script .bat está localizado.
-  > Pressione Ctrl + O, depois pressione Enter para salvar as alterações, e depois Ctrl + X        para sair do editor nano.
+  > Pressione Ctrl + O, depois pressione Enter para salvar as alterações, e depois Ctrl + X para sair do editor nano.
 
-  **Passo 3**
-  > Recarregue o arquivo .bashrc para aplicar as alterações. Você pode fazer isso executando o comando:
+  **Passo 3**  
+  Recarregue o arquivo .bashrc para aplicar as alterações. Você pode fazer isso executando o comando:
 
      source ~/.bashrc
 
-  > Agora, o Git Bash deve reconhecer seu script .bat quando você o chamar pelo nome no terminal. Certifique-se de que seu script .bat tenha permissões de execução adequadas para ser executado no Git Bash.
+  Agora, o Git Bash deve reconhecer seu script .bat quando você o chamar pelo nome no terminal. Certifique-se de que seu script .bat tenha permissões de execução adequadas para ser executado no Git Bash.
 
 
 
 ***Observações:***
   
-  Por algum motivo no Windows 11 você ainda terá que digita o ```ippD.bat``` ou seja   ainda terá que digitar a extensão.
+  Por algum motivo usando o Git Bash no Windows 11 você ainda terá que digita o ```ippD.bat``` ou seja ainda terá que digitar a extensão para que o Bash rode o seu comando.
 
-  Outra forma de executar o seu script sem necessecidade de digitar a extensão é abrir um prompt de comando dentro do Git Bash digitando o comando:
+  ### Você pode executar também desta forma.
+  A forma de executar o seu script sem necessecidade de digitar a extensão é abrir um prompt de comando dentro do Git Bash digitando o comando:
   
     cmd
 
-  Para abrir o prompt de comando e após o término da criação do seu projeto em Type Script 
-  usar o camando:
+  Assim o command prompt do windows irá rodar, digite ```ippd``` e aguarde a criação do seu projeto. Após o término da criação em Type Script usar o camando:
 
     exit
+
+  Pronto agora o céu é o limite...
