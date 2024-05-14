@@ -14,7 +14,7 @@ rem Encontra a linha onde está a opção "outDir"
     set /a "LineNumber+=1"
     set "line=%%a"
     if !LineNumber! equ 12 (
-    	set "line=!line:"target": "es2016"="target": "ES2020"!"
+    	set "line=!line:"target": "es2016"="target": "ES2022"!"
     )
     if !LineNumber! equ 53 (
         set "line=!line:// "outDir": "./"="outDir": "./javascript"!"
