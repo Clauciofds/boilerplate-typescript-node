@@ -1,7 +1,7 @@
 [English version](https://github.com/Clauciofds/boilerplate-typescript-node/edit/main/readme_en.md)
   # Script para criação de novos projetos Type Script Node:
 ![watchers](https://img.shields.io/github/watchers/Clauciofds/boilerplate-typescript-node.svg)
-![forks](https://img.shields.io/github/forks/Clauciofds/boilerplate-typescript-node.svg)
+![forks](https://img.shields.io/github/forks/Clauciofds/boilerplate-typescript-node&cache_seconds=1800.svg)
 ![commits](https://img.shields.io/github/stars/Clauciofds/boilerplate-typescript-node.svg)  
   Esse código em lote (arquivo .bat) é usado para automatizar a criação de um novo projeto TypeScript no Visual Studio Code (VS Code).
 Vou explicar cada parte:   
