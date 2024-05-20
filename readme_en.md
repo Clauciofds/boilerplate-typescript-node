@@ -5,7 +5,10 @@
 ![commits](https://img.shields.io/github/stars/Clauciofds/boilerplate-typescript-node.svg)  
 **TypeScript Node Project Creation Script**
 
-This batch script (.bat file) is used to automate the creation of a new TypeScript project in Visual Studio Code (VS Code). I will explain each part:
+This batch script (.bat file) is used to automate the creation of a new TypeScript project in Visual Studio Code (VS Code). I will explain each part:  
+
+Note 2  
+This file can be customized with new automatic settings for projects and structures that you encounter regularly in your daily work. Keep this in mind.
 
 **ippD.bat File**
 
