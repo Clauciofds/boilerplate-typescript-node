@@ -4,7 +4,10 @@
 ![forks](https://img.shields.io/github/forks/Clauciofds/boilerplate-typescript-node.svg)
 ![commits](https://img.shields.io/github/stars/Clauciofds/boilerplate-typescript-node.svg)  
   Esse código em lote (arquivo .bat) é usado para automatizar a criação de um novo projeto TypeScript no Visual Studio Code (VS Code).
-Vou explicar cada parte:
+Vou explicar cada parte:  
+
+**Nota**  
+  Esse arquivo pode ser personalizado com novas configurações automáticas para projetos e estruturas que se repetem no seu dia-a-dia de trabalho, pense nisso.
 
 ## Arquivo ippD.bat
 
@@ -46,7 +49,7 @@ Esse arquivo define as opções de compilação para o TypeScript.
 
   *5*. Incrementa a variável LineNumber a cada iteração do loop.
 
-  *6*. Verifica se a linha atual é a 12ª ou a 53ª linha e, em caso afirmativo, modifica o conteúdo da linha( 2 ):  
+  *6*. Verifica se a linha atual é a 12ª ou a 53ª linha e, em caso afirmativo, modifica o conteúdo da linha:  
     - Na linha 12, altera a opção ```"target": "es2016"```( 1 ) para ```"target": "ES2020"```( 1 ).  
     - Na linha 53, altera a opção ```"outDir": "./"``` para ```"outDir": "./javascript"```.
     
