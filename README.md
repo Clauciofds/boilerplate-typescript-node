@@ -1,4 +1,4 @@
-  # Script para criação de novos projetos Type Script
+  # Script para criação de novos projetos Type Script Node:
   
   Esse código em lote (arquivo .bat) é usado para automatizar a criação de um novo projeto TypeScript no Visual Studio Code (VS Code).
 Vou explicar cada parte:
