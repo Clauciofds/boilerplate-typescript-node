@@ -46,12 +46,11 @@ Esse arquivo define as opções de compilação para o TypeScript.
 
   *5*. Incrementa a variável LineNumber a cada iteração do loop.
 
-  *6*. Verifica se a linha atual é a 12ª ou a 53ª linha e, em caso afirmativo, modifica o conteúdo da linha:
-    - Na linha 12, altera a opção ```"target": "es2016"```(1) para ```"target": "ES2020"```.
+  *6*. Verifica se a linha atual é a 12ª ou a 53ª linha e, em caso afirmativo, modifica o conteúdo da linha( 2 ):  
+    - Na linha 12, altera a opção ```"target": "es2016"```( 1 ) para ```"target": "ES2020"```( 1 ).  
     - Na linha 53, altera a opção ```"outDir": "./"``` para ```"outDir": "./javascript"```.
     
-  <span style="font-size: 12px;">**Observação: (1)**
-
+  <span style="font-size: 12px;">**Nota 1**  
   <span style="font-size: 12px;">Aqui estão algumas informações relevantes sobre o “target”:
 
 <span style="font-size: 12px;">Valores Possíveis:
@@ -70,7 +69,11 @@ Ao usar uma versão mais recente do ECMAScript (como ES2016), você pode se bene
  <span style="font-size: 12px;">- Recursos Nativos: Menos necessidade de polyfills, pois navegadores modernos oferecem suporte a mais recursos nativamente.
  <span style="font-size: 12px;">- Melhor Desempenho: Alguns recursos mais recentes podem ser otimizados para desempenho.  
 
-<span style="font-size: 12px;">º _No entanto, tenha em mente que, se você segmentar versões mais recentes, os navegadores mais antigos podem encontrar erros de tempo de execução se usarem recursos não suportados por sua versão específica._</span>
+<span style="font-size: 12px;">º _No entanto, tenha em mente que, se você segmentar versões mais recentes, os navegadores mais antigos podem encontrar erros de tempo de execução se usarem recursos não suportados por sua versão específica. 
+
+<span style="font-size: 12px;">**Nota 2**  
+<span style="font-size: 12px;">- Esse arquivo pode ser personalizado com novas configurações automáticas para projetos e estruturas que se repetem no seu dia-a-dia de trabalho, pense nisso.
+_</span>
 
   *7*. Redireciona a saída modificada para um arquivo temporário.
 
