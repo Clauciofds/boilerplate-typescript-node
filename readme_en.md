@@ -1,5 +1,8 @@
-## TypeScript Node Starter Script - README Translation
-
+[Portuguese version](https://github.com/Clauciofds/boilerplate-typescript-node/edit/main/README.md)
+  # Script para criação de novos projetos Type Script Node:
+![watchers](https://img.shields.io/github/watchers/Clauciofds/boilerplate-typescript-node.svg)
+![forks](https://img.shields.io/github/forks/Clauciofds/boilerplate-typescript-node.svg)
+![commits](https://img.shields.io/github/stars/Clauciofds/boilerplate-typescript-node.svg)  
 **TypeScript Node Project Creation Script**
 
 This batch script (.bat file) is used to automate the creation of a new TypeScript project in Visual Studio Code (VS Code). I will explain each part:
